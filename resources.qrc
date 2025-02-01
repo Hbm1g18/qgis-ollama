@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/ollama_chat" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>
