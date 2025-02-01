@@ -1,0 +1,682 @@
+Provider,Algorithm Name,Display Name
+QGIS (3D),tessellate,Tessellate
+GDAL,aspect,Aspect
+GDAL,assignprojection,Assign projection
+GDAL,buffervectors,Buffer vectors
+GDAL,buildvirtualraster,Build virtual raster
+GDAL,buildvirtualvector,Build virtual vector
+GDAL,cliprasterbyextent,Clip raster by extent
+GDAL,cliprasterbymasklayer,Clip raster by mask layer
+GDAL,clipvectorbyextent,Clip vector by extent
+GDAL,clipvectorbypolygon,Clip vector by mask layer
+GDAL,colorrelief,Color relief
+GDAL,contour,Contour
+GDAL,contour_polygon,Contour Polygons
+GDAL,convertformat,Convert format
+GDAL,dissolve,Dissolve
+GDAL,executesql,Execute SQL
+GDAL,extractprojection,Extract projection
+GDAL,fillnodata,Fill nodata
+GDAL,gdal2tiles,gdal2tiles
+GDAL,gdal2xyz,gdal2xyz
+GDAL,gdalinfo,Raster information
+GDAL,gridaverage,Grid (Moving average)
+GDAL,griddatametrics,Grid (Data metrics)
+GDAL,gridinversedistance,Grid (Inverse distance to a power)
+GDAL,gridinversedistancenearestneighbor,Grid (IDW with nearest neighbor searching)
+GDAL,gridlinear,Grid (Linear)
+GDAL,gridnearestneighbor,Grid (Nearest neighbor)
+GDAL,hillshade,Hillshade
+GDAL,importvectorintopostgisdatabaseavailableconnections,Export to PostgreSQL (available connections)
+GDAL,importvectorintopostgisdatabasenewconnection,Export to PostgreSQL (new connection)
+GDAL,merge,Merge
+GDAL,nearblack,Near black
+GDAL,offsetcurve,Offset curve
+GDAL,ogrinfo,Vector information
+GDAL,onesidebuffer,One side buffer
+GDAL,overviews,Build overviews (pyramids)
+GDAL,pansharp,Pansharpening
+GDAL,pcttorgb,PCT to RGB
+GDAL,pointsalonglines,Points along lines
+GDAL,polygonize,Polygonize (raster to vector)
+GDAL,proximity,Proximity (raster distance)
+GDAL,rastercalculator,Raster calculator
+GDAL,rasterize,Rasterize (vector to raster)
+GDAL,rasterize_over,Rasterize (overwrite with attribute)
+GDAL,rasterize_over_fixed_value,Rasterize (overwrite with fixed value)
+GDAL,rearrange_bands,Rearrange bands
+GDAL,retile,Retile
+GDAL,rgbtopct,RGB to PCT
+GDAL,roughness,Roughness
+GDAL,sieve,Sieve
+GDAL,slope,Slope
+GDAL,tileindex,Tile index
+GDAL,tpitopographicpositionindex,Topographic Position Index (TPI)
+GDAL,translate,Translate (convert format)
+GDAL,triterrainruggednessindex,Terrain Ruggedness Index (TRI)
+GDAL,viewshed,Viewshed
+GDAL,warpreproject,Warp (reproject)
+GRASS,g.extension.list,g.extension.list
+GRASS,g.extension.manage,g.extension.manage
+GRASS,i.albedo,i.albedo
+GRASS,i.aster.toar,i.aster.toar
+GRASS,i.atcorr,i.atcorr
+GRASS,i.biomass,i.biomass
+GRASS,i.cca,i.cca
+GRASS,i.cluster,i.cluster
+GRASS,i.colors.enhance,i.colors.enhance
+GRASS,i.eb.eta,i.eb.eta
+GRASS,i.eb.evapfr,i.eb.evapfr
+GRASS,i.eb.hsebal01.coords,i.eb.hsebal01.coords
+GRASS,i.eb.netrad,i.eb.netrad
+GRASS,i.eb.soilheatflux,i.eb.soilheatflux
+GRASS,i.emissivity,i.emissivity
+GRASS,i.evapo.mh,i.evapo.mh
+GRASS,i.evapo.pm,i.evapo.pm
+GRASS,i.evapo.pt,i.evapo.pt
+GRASS,i.evapo.time,i.evapo.time
+GRASS,i.fft,i.fft
+GRASS,i.gensig,i.gensig
+GRASS,i.gensigset,i.gensigset
+GRASS,i.group,i.group
+GRASS,i.his.rgb,i.his.rgb
+GRASS,i.ifft,i.ifft
+GRASS,i.image.mosaic,i.image.mosaic
+GRASS,i.in.spotvgt,i.in.spotvgt
+GRASS,i.landsat.acca,i.landsat.acca
+GRASS,i.landsat.toar,i.landsat.toar
+GRASS,i.maxlik,i.maxlik
+GRASS,i.modis.qc,i.modis.qc
+GRASS,i.oif,i.oif
+GRASS,i.pansharpen,i.pansharpen
+GRASS,i.pca,i.pca
+GRASS,i.rgb.his,i.rgb.his
+GRASS,i.segment,i.segment
+GRASS,i.smap,i.smap
+GRASS,i.tasscap,i.tasscap
+GRASS,i.topo.coor.ill,i.topo.coor.ill
+GRASS,i.topo.corr,i.topo.corr
+GRASS,i.vi,i.vi
+GRASS,i.zc,i.zc
+GRASS,m.cogo,m.cogo
+GRASS,nviz,nviz
+GRASS,r.basins.fill,r.basins.fill
+GRASS,r.blend.combine,r.blend.combine
+GRASS,r.blend.rgb,r.blend.rgb
+GRASS,r.buffer,r.buffer
+GRASS,r.buffer.lowmem,r.buffer.lowmem
+GRASS,r.carve,r.carve
+GRASS,r.category,r.category
+GRASS,r.category.out,r.category.out
+GRASS,r.circle,r.circle
+GRASS,r.clump,r.clump
+GRASS,r.coin,r.coin
+GRASS,r.colors,r.colors
+GRASS,r.colors.out,r.colors.out
+GRASS,r.colors.stddev,r.colors.stddev
+GRASS,r.composite,r.composite
+GRASS,r.contour,r.contour
+GRASS,r.cost,r.cost
+GRASS,r.covar,r.covar
+GRASS,r.cross,r.cross
+GRASS,r.describe,r.describe
+GRASS,r.distance,r.distance
+GRASS,r.drain,r.drain
+GRASS,r.fill.dir,r.fill.dir
+GRASS,r.fill.stats,r.fill.stats
+GRASS,r.fillnulls,r.fillnulls
+GRASS,r.flow,r.flow
+GRASS,r.geomorphon,r.geomorphon
+GRASS,r.grow,r.grow
+GRASS,r.grow.distance,r.grow.distance
+GRASS,r.gwflow,r.gwflow
+GRASS,r.his,r.his
+GRASS,r.horizon,r.horizon
+GRASS,r.horizon.height,r.horizon.height
+GRASS,r.in.lidar,r.in.lidar
+GRASS,r.in.lidar.info,r.in.lidar.info
+GRASS,r.info,r.info
+GRASS,r.kappa,r.kappa
+GRASS,r.lake,r.lake
+GRASS,r.latlong,r.latlong
+GRASS,r.li.cwed,r.li.cwed
+GRASS,r.li.cwed.ascii,r.li.cwed.ascii
+GRASS,r.li.dominance,r.li.dominance
+GRASS,r.li.dominance.ascii,r.li.dominance.ascii
+GRASS,r.li.edgedensity,r.li.edgedensity
+GRASS,r.li.edgedensity.ascii,r.li.edgedensity.ascii
+GRASS,r.li.mpa,r.li.mpa
+GRASS,r.li.mpa.ascii,r.li.mpa.ascii
+GRASS,r.li.mps,r.li.mps
+GRASS,r.li.mps.ascii,r.li.mps.ascii
+GRASS,r.li.padcv,r.li.padcv
+GRASS,r.li.padcv.ascii,r.li.padcv.ascii
+GRASS,r.li.padrange,r.li.padrange
+GRASS,r.li.padrange.ascii,r.li.padrange.ascii
+GRASS,r.li.padsd,r.li.padsd
+GRASS,r.li.padsd.ascii,r.li.padsd.ascii
+GRASS,r.li.patchdensity,r.li.patchdensity
+GRASS,r.li.patchdensity.ascii,r.li.patchdensity.ascii
+GRASS,r.li.patchnum,r.li.patchnum
+GRASS,r.li.patchnum.ascii,r.li.patchnum.ascii
+GRASS,r.li.pielou,r.li.pielou
+GRASS,r.li.pielou.ascii,r.li.pielou.ascii
+GRASS,r.li.renyi,r.li.renyi
+GRASS,r.li.renyi.ascii,r.li.renyi.ascii
+GRASS,r.li.richness,r.li.richness
+GRASS,r.li.richness.ascii,r.li.richness.ascii
+GRASS,r.li.shannon,r.li.shannon
+GRASS,r.li.shannon.ascii,r.li.shannon.ascii
+GRASS,r.li.shape,r.li.shape
+GRASS,r.li.shape.ascii,r.li.shape.ascii
+GRASS,r.li.simpson,r.li.simpson
+GRASS,r.li.simpson.ascii,r.li.simpson.ascii
+GRASS,r.mapcalc.simple,r.mapcalc.simple
+GRASS,r.mask.rast,r.mask.rast
+GRASS,r.mask.vect,r.mask.vect
+GRASS,r.mfilter,r.mfilter
+GRASS,r.mode,r.mode
+GRASS,r.neighbors,r.neighbors
+GRASS,r.null,r.null
+GRASS,r.out.ascii,r.out.ascii
+GRASS,r.out.gridatb,r.out.gridatb
+GRASS,r.out.mat,r.out.mat
+GRASS,r.out.mpeg,r.out.mpeg
+GRASS,r.out.png,r.out.png
+GRASS,r.out.pov,r.out.pov
+GRASS,r.out.ppm,r.out.ppm
+GRASS,r.out.ppm3,r.out.ppm3
+GRASS,r.out.vrml,r.out.vrml
+GRASS,r.out.vtk,r.out.vtk
+GRASS,r.out.xyz,r.out.xyz
+GRASS,r.param.scale,r.param.scale
+GRASS,r.patch,r.patch
+GRASS,r.path,r.path
+GRASS,r.path.coordinate.txt,r.path.coordinate.txt
+GRASS,r.plane,r.plane
+GRASS,r.profile,r.profile
+GRASS,r.proj,r.proj
+GRASS,r.quant,r.quant
+GRASS,r.quantile,r.quantile
+GRASS,r.quantile.plain,r.quantile.plain
+GRASS,r.random,r.random
+GRASS,r.random.cells,r.random.cells
+GRASS,r.random.surface,r.random.surface
+GRASS,r.reclass,r.reclass
+GRASS,r.reclass.area,r.reclass.area
+GRASS,r.recode,r.recode
+GRASS,r.regression.line,r.regression.line
+GRASS,r.regression.multi,r.regression.multi
+GRASS,r.relief,r.relief
+GRASS,r.relief.scaling,r.relief.scaling
+GRASS,r.report,r.report
+GRASS,r.resamp.bspline,r.resamp.bspline
+GRASS,r.resamp.filter,r.resamp.filter
+GRASS,r.resamp.interp,r.resamp.interp
+GRASS,r.resamp.rst,r.resamp.rst
+GRASS,r.resamp.stats,r.resamp.stats
+GRASS,r.resample,r.resample
+GRASS,r.rescale,r.rescale
+GRASS,r.rescale.eq,r.rescale.eq
+GRASS,r.rgb,r.rgb
+GRASS,r.ros,r.ros
+GRASS,r.series,r.series
+GRASS,r.series.accumulate,r.series.accumulate
+GRASS,r.series.interp,r.series.interp
+GRASS,r.shade,r.shade
+GRASS,r.sim.sediment,r.sim.sediment
+GRASS,r.sim.water,r.sim.water
+GRASS,r.slope.aspect,r.slope.aspect
+GRASS,r.solute.transport,r.solute.transport
+GRASS,r.spread,r.spread
+GRASS,r.spreadpath,r.spreadpath
+GRASS,r.statistics,r.statistics
+GRASS,r.stats,r.stats
+GRASS,r.stats.quantile.out,r.stats.quantile.out
+GRASS,r.stats.quantile.rast,r.stats.quantile.rast
+GRASS,r.stats.zonal,r.stats.zonal
+GRASS,r.stream.extract,r.stream.extract
+GRASS,r.sun.incidout,r.sun.incidout
+GRASS,r.sun.insoltime,r.sun.insoltime
+GRASS,r.sunhours,r.sunhours
+GRASS,r.sunmask.datetime,r.sunmask.datetime
+GRASS,r.sunmask.position,r.sunmask.position
+GRASS,r.surf.area,r.surf.area
+GRASS,r.surf.contour,r.surf.contour
+GRASS,r.surf.fractal,r.surf.fractal
+GRASS,r.surf.gauss,r.surf.gauss
+GRASS,r.surf.idw,r.surf.idw
+GRASS,r.surf.random,r.surf.random
+GRASS,r.terraflow,r.terraflow
+GRASS,r.texture,r.texture
+GRASS,r.thin,r.thin
+GRASS,r.tile,r.tile
+GRASS,r.tileset,r.tileset
+GRASS,r.to.vect,r.to.vect
+GRASS,r.topidx,r.topidx
+GRASS,r.topmodel,r.topmodel
+GRASS,r.topmodel.topidxstats,r.topmodel.topidxstats
+GRASS,r.transect,r.transect
+GRASS,r.univar,r.univar
+GRASS,r.uslek,r.uslek
+GRASS,r.usler,r.usler
+GRASS,r.viewshed,r.viewshed
+GRASS,r.volume,r.volume
+GRASS,r.walk.coords,r.walk.coords
+GRASS,r.walk.points,r.walk.points
+GRASS,r.walk.rast,r.walk.rast
+GRASS,r.water.outlet,r.water.outlet
+GRASS,r.watershed,r.watershed
+GRASS,r.what.color,r.what.color
+GRASS,r.what.coords,r.what.coords
+GRASS,r.what.points,r.what.points
+GRASS,v.buffer,v.buffer
+GRASS,v.build.check,v.build.check
+GRASS,v.build.polylines,v.build.polylines
+GRASS,v.class,v.class
+GRASS,v.clean,v.clean
+GRASS,v.cluster,v.cluster
+GRASS,v.db.select,v.db.select
+GRASS,v.decimate,v.decimate
+GRASS,v.delaunay,v.delaunay
+GRASS,v.dissolve,v.dissolve
+GRASS,v.distance,v.distance
+GRASS,v.drape,v.drape
+GRASS,v.edit,v.edit
+GRASS,v.extract,v.extract
+GRASS,v.extrude,v.extrude
+GRASS,v.generalize,v.generalize
+GRASS,v.hull,v.hull
+GRASS,v.in.ascii,v.in.ascii
+GRASS,v.in.dxf,v.in.dxf
+GRASS,v.in.e00,v.in.e00
+GRASS,v.in.geonames,v.in.geonames
+GRASS,v.in.lidar,v.in.lidar
+GRASS,v.in.lines,v.in.lines
+GRASS,v.in.mapgen,v.in.mapgen
+GRASS,v.in.wfs,v.in.wfs
+GRASS,v.info,v.info
+GRASS,v.kcv,v.kcv
+GRASS,v.kernel.rast,v.kernel.rast
+GRASS,v.kernel.vector,v.kernel.vector
+GRASS,v.lidar.correction,v.lidar.correction
+GRASS,v.lidar.edgedetection,v.lidar.edgedetection
+GRASS,v.lidar.growing,v.lidar.growing
+GRASS,v.mkgrid,v.mkgrid
+GRASS,v.neighbors,v.neighbors
+GRASS,v.net,v.net
+GRASS,v.net.alloc,v.net.alloc
+GRASS,v.net.allpairs,v.net.allpairs
+GRASS,v.net.bridge,v.net.bridge
+GRASS,v.net.centrality,v.net.centrality
+GRASS,v.net.components,v.net.components
+GRASS,v.net.connectivity,v.net.connectivity
+GRASS,v.net.distance,v.net.distance
+GRASS,v.net.flow,v.net.flow
+GRASS,v.net.iso,v.net.iso
+GRASS,v.net.nreport,v.net.nreport
+GRASS,v.net.path,v.net.path
+GRASS,v.net.report,v.net.report
+GRASS,v.net.salesman,v.net.salesman
+GRASS,v.net.spanningtree,v.net.spanningtree
+GRASS,v.net.steiner,v.net.steiner
+GRASS,v.net.timetable,v.net.timetable
+GRASS,v.net.visibility,v.net.visibility
+GRASS,v.normal,v.normal
+GRASS,v.out.ascii,v.out.ascii
+GRASS,v.out.dxf,v.out.dxf
+GRASS,v.out.postgis,v.out.postgis
+GRASS,v.out.pov,v.out.pov
+GRASS,v.out.svg,v.out.svg
+GRASS,v.out.vtk,v.out.vtk
+GRASS,v.outlier,v.outlier
+GRASS,v.overlay,v.overlay
+GRASS,v.pack,v.pack
+GRASS,v.parallel,v.parallel
+GRASS,v.patch,v.patch
+GRASS,v.perturb,v.perturb
+GRASS,v.proj,v.proj
+GRASS,v.qcount,v.qcount
+GRASS,v.random,v.random
+GRASS,v.rast.stats,v.rast.stats
+GRASS,v.reclass,v.reclass
+GRASS,v.rectify,v.rectify
+GRASS,v.report,v.report
+GRASS,v.sample,v.sample
+GRASS,v.segment,v.segment
+GRASS,v.select,v.select
+GRASS,v.split,v.split
+GRASS,v.surf.bspline,v.surf.bspline
+GRASS,v.surf.idw,v.surf.idw
+GRASS,v.surf.rst,v.surf.rst
+GRASS,v.surf.rst.cvdev,v.surf.rst.cvdev
+GRASS,v.to.3d,v.to.3d
+GRASS,v.to.lines,v.to.lines
+GRASS,v.to.points,v.to.points
+GRASS,v.to.rast,v.to.rast
+GRASS,v.transform,v.transform
+GRASS,v.type,v.type
+GRASS,v.univar,v.univar
+GRASS,v.vect.stats,v.vect.stats
+GRASS,v.voronoi,v.voronoi
+GRASS,v.voronoi.skeleton,v.voronoi.skeleton
+GRASS,v.what.rast,v.what.rast
+GRASS,v.what.vect,v.what.vect
+QGIS (native c++),addautoincrementalfield,Add autoincremental field
+QGIS (native c++),addfieldtoattributestable,Add field to attributes table
+QGIS (native c++),adduniquevalueindexfield,Add unique value index field
+QGIS (native c++),addxyfields,Add X/Y fields to layer
+QGIS (native c++),affinetransform,Affine transform
+QGIS (native c++),aggregate,Aggregate
+QGIS (native c++),alignrasters,Align rasters
+QGIS (native c++),alignsingleraster,Align raster
+QGIS (native c++),angletonearest,Align points to features
+QGIS (native c++),antimeridiansplit,Geodesic line split at antimeridian
+QGIS (native c++),arrayoffsetlines,Array of offset (parallel) lines
+QGIS (native c++),arraytranslatedfeatures,Array of translated features
+QGIS (native c++),aspect,Aspect
+QGIS (native c++),assignprojection,Assign projection
+QGIS (native c++),atlaslayouttoimage,Export atlas layout as image
+QGIS (native c++),atlaslayouttomultiplepdf,Export atlas layout as PDF (multiple files)
+QGIS (native c++),atlaslayouttopdf,Export atlas layout as PDF (single file)
+QGIS (native c++),b3dmtogltf,Convert B3DM to GLTF
+QGIS (native c++),batchnominatimgeocoder,Batch Nominatim geocoder
+QGIS (native c++),bookmarkstolayer,Convert spatial bookmarks to layer
+QGIS (native c++),boundary,Boundary
+QGIS (native c++),boundingboxes,Bounding boxes
+QGIS (native c++),buffer,Buffer
+QGIS (native c++),bufferbym,Variable width buffer (by M value)
+QGIS (native c++),calculateexpression,Calculate expression
+QGIS (native c++),calculatevectoroverlaps,Overlap analysis
+QGIS (native c++),categorizeusingstyle,Create categorized renderer from styles
+QGIS (native c++),cellstackpercentile,Cell stack percentile
+QGIS (native c++),cellstackpercentrankfromrasterlayer,Cell stack percentrank from raster layer
+QGIS (native c++),cellstackpercentrankfromvalue,Cell stack percent rank from value
+QGIS (native c++),cellstatistics,Cell statistics
+QGIS (native c++),centroids,Centroids
+QGIS (native c++),clip,Clip
+QGIS (native c++),collect,Collect geometries
+QGIS (native c++),combinestyles,Combine style databases
+QGIS (native c++),concavehull,Concave hull
+QGIS (native c++),condition,Conditional branch
+QGIS (native c++),convertgpsdata,Convert GPS data
+QGIS (native c++),convertgpxfeaturetype,Convert GPX feature type
+QGIS (native c++),converttocurves,Convert to curved geometries
+QGIS (native c++),convexhull,Convex hull
+QGIS (native c++),countpointsinpolygon,Count points in polygon
+QGIS (native c++),createattributeindex,Create attribute index
+QGIS (native c++),createconstantrasterlayer,Create constant raster layer
+QGIS (native c++),createdirectory,Create directory
+QGIS (native c++),creategrid,Create grid
+QGIS (native c++),createpointslayerfromtable,Create points layer from table
+QGIS (native c++),createrandombinomialrasterlayer,Create random raster layer (binomial distribution)
+QGIS (native c++),createrandomexponentialrasterlayer,Create random raster layer (exponential distribution)
+QGIS (native c++),createrandomgammarasterlayer,Create random raster layer (gamma distribution)
+QGIS (native c++),createrandomgeometricrasterlayer,Create random raster layer (geometric distribution)
+QGIS (native c++),createrandomnegativebinomialrasterlayer,Create random raster layer (negative binomial distribution)
+QGIS (native c++),createrandomnormalrasterlayer,Create random raster layer (normal distribution)
+QGIS (native c++),createrandompoissonrasterlayer,Create random raster layer (poisson distribution)
+QGIS (native c++),createrandomuniformrasterlayer,Create random raster layer (uniform distribution)
+QGIS (native c++),createspatialindex,Create spatial index
+QGIS (native c++),dbscanclustering,DBSCAN clustering
+QGIS (native c++),delaunaytriangulation,Delaunay triangulation
+QGIS (native c++),deletecolumn,Drop field(s)
+QGIS (native c++),deleteduplicategeometries,Delete duplicate geometries
+QGIS (native c++),deleteholes,Delete holes
+QGIS (native c++),densifygeometries,Densify by count
+QGIS (native c++),densifygeometriesgivenaninterval,Densify by interval
+QGIS (native c++),detectvectorchanges,Detect dataset changes
+QGIS (native c++),difference,Difference
+QGIS (native c++),dissolve,Dissolve
+QGIS (native c++),downloadgpsdata,Download GPS data from device
+QGIS (native c++),downloadvectortiles,Download vector tiles
+QGIS (native c++),dropgeometries,Drop geometries
+QGIS (native c++),dropmzvalues,Drop M/Z values
+QGIS (native c++),dtmslopebasedfilter,DTM filter (slope-based)
+QGIS (native c++),dxfexport,Export layers to DXF
+QGIS (native c++),equaltofrequency,Equal to frequency
+QGIS (native c++),explodehstorefield,Explode HStore Field
+QGIS (native c++),explodelines,Explode lines
+QGIS (native c++),exportlayersinformation,Export layer(s) information
+QGIS (native c++),exportmeshedges,Export mesh edges
+QGIS (native c++),exportmeshfaces,Export mesh faces
+QGIS (native c++),exportmeshongrid,Export mesh on grid
+QGIS (native c++),exportmeshvertices,Export mesh vertices
+QGIS (native c++),exporttospreadsheet,Export to spreadsheet
+QGIS (native c++),extendlines,Extend lines
+QGIS (native c++),extenttolayer,Create layer from extent
+QGIS (native c++),extractbinary,Extract binary field
+QGIS (native c++),extractbyattribute,Extract by attribute
+QGIS (native c++),extractbyexpression,Extract by expression
+QGIS (native c++),extractbyextent,Extract/clip by extent
+QGIS (native c++),extractbylocation,Extract by location
+QGIS (native c++),extractlabels,Extract labels
+QGIS (native c++),extractmvalues,Extract M values
+QGIS (native c++),extractspecificvertices,Extract specific vertices
+QGIS (native c++),extractvertices,Extract vertices
+QGIS (native c++),extractwithindistance,Extract within distance
+QGIS (native c++),extractzvalues,Extract Z values
+QGIS (native c++),fieldcalculator,Field calculator
+QGIS (native c++),filedownloader,Download file
+QGIS (native c++),fillnodata,Fill NoData cells
+QGIS (native c++),filter,Feature filter
+QGIS (native c++),filterbygeometry,Filter by geometry type
+QGIS (native c++),filterlayersbytype,Filter layers by type
+QGIS (native c++),filterverticesbym,Filter vertices by M value
+QGIS (native c++),filterverticesbyz,Filter vertices by Z value
+QGIS (native c++),fixgeometries,Fix geometries
+QGIS (native c++),flattenrelationships,Flatten relationship
+QGIS (native c++),forcerhr,Force right-hand-rule
+QGIS (native c++),fuzzifyrastergaussianmembership,Fuzzify raster (gaussian membership)
+QGIS (native c++),fuzzifyrasterlargemembership,Fuzzify raster (large membership)
+QGIS (native c++),fuzzifyrasterlinearmembership,Fuzzify raster (linear membership)
+QGIS (native c++),fuzzifyrasternearmembership,Fuzzify raster (near membership)
+QGIS (native c++),fuzzifyrasterpowermembership,Fuzzify raster (power membership)
+QGIS (native c++),fuzzifyrastersmallmembership,Fuzzify raster (small membership)
+QGIS (native c++),generatepointspixelcentroidsinsidepolygons,Generate points (pixel centroids) inside polygons
+QGIS (native c++),geometrybyexpression,Geometry by expression
+QGIS (native c++),gltftovector,Convert GLTF to vector features
+QGIS (native c++),greaterthanfrequency,Greater than frequency
+QGIS (native c++),highestpositioninrasterstack,Highest position in raster stack
+QGIS (native c++),hillshade,Hillshade
+QGIS (native c++),hublines,Join by lines (hub lines)
+QGIS (native c++),importintopostgis,Export to PostgreSQL
+QGIS (native c++),importphotos,Import geotagged photos
+QGIS (native c++),interpolatepoint,Interpolate point on line
+QGIS (native c++),intersection,Intersection
+QGIS (native c++),joinattributesbylocation,Join attributes by location
+QGIS (native c++),joinattributestable,Join attributes by field value
+QGIS (native c++),joinbylocationsummary,Join attributes by location (summary)
+QGIS (native c++),joinbynearest,Join attributes by nearest
+QGIS (native c++),keepnbiggestparts,Keep N biggest parts
+QGIS (native c++),kmeansclustering,K-means clustering
+QGIS (native c++),layertobookmarks,Convert layer to spatial bookmarks
+QGIS (native c++),lessthanfrequency,Less than frequency
+QGIS (native c++),linedensity,Line density
+QGIS (native c++),lineintersections,Line intersections
+QGIS (native c++),linesubstring,Line substring
+QGIS (native c++),loadlayer,Load layer into project
+QGIS (native c++),lowestpositioninrasterstack,Lowest position in raster stack
+QGIS (native c++),meancoordinates,Mean coordinate(s)
+QGIS (native c++),mergelines,Merge lines
+QGIS (native c++),mergevectorlayers,Merge vector layers
+QGIS (native c++),meshcontours,Export contours
+QGIS (native c++),meshexportcrosssection,Export cross section dataset values on lines from mesh
+QGIS (native c++),meshexporttimeseries,Export time series values from points of a mesh dataset
+QGIS (native c++),meshrasterize,Rasterize mesh dataset
+QGIS (native c++),minimumenclosingcircle,Minimum enclosing circles
+QGIS (native c++),modelerrastercalc,Raster calculator
+QGIS (native c++),modelervirtualrastercalc,Raster calculator (virtual)
+QGIS (native c++),multidifference,Difference (multiple)
+QGIS (native c++),multiintersection,Intersection (multiple)
+QGIS (native c++),multiparttosingleparts,Multipart to singleparts
+QGIS (native c++),multiringconstantbuffer,Multi-ring buffer (constant distance)
+QGIS (native c++),multiunion,Union (multiple)
+QGIS (native c++),nearestneighbouranalysis,Nearest neighbour analysis
+QGIS (native c++),offsetline,Offset lines
+QGIS (native c++),orderbyexpression,Order by expression
+QGIS (native c++),orientedminimumboundingbox,Oriented minimum bounding box
+QGIS (native c++),orthogonalize,Orthogonalize
+QGIS (native c++),package,Package layers
+QGIS (native c++),pixelstopoints,Raster pixels to points
+QGIS (native c++),pixelstopolygons,Raster pixels to polygons
+QGIS (native c++),pointonsurface,Point on surface
+QGIS (native c++),pointsalonglines,Points along geometry
+QGIS (native c++),pointstopath,Points to path
+QGIS (native c++),pointtolayer,Create layer from point
+QGIS (native c++),poleofinaccessibility,Pole of inaccessibility
+QGIS (native c++),polygonfromlayerextent,Extract layer extent
+QGIS (native c++),polygonize,Polygonize
+QGIS (native c++),polygonstolines,Polygons to lines
+QGIS (native c++),postgisexecutesql,PostgreSQL execute SQL
+QGIS (native c++),printlayoutmapextenttolayer,Print layout map extent to layer
+QGIS (native c++),printlayouttoimage,Export print layout as image
+QGIS (native c++),printlayouttopdf,Export print layout as PDF
+QGIS (native c++),projectpointcartesian,Project points (Cartesian)
+QGIS (native c++),promotetomulti,Promote to multipart
+QGIS (native c++),raiseexception,Raise exception
+QGIS (native c++),raisemessage,Raise message
+QGIS (native c++),raisewarning,Raise warning
+QGIS (native c++),randomextract,Random extract
+QGIS (native c++),randompointsinextent,Random points in extent
+QGIS (native c++),randompointsinpolygons,Random points in polygons
+QGIS (native c++),randompointsonlines,Random points on lines
+QGIS (native c++),rasterbooleanand,Raster boolean AND
+QGIS (native c++),rastercalc,Raster calculator
+QGIS (native c++),rasterize,Convert map to raster
+QGIS (native c++),rasterlayerproperties,Raster layer properties
+QGIS (native c++),rasterlayerstatistics,Raster layer statistics
+QGIS (native c++),rasterlayeruniquevaluesreport,Raster layer unique values report
+QGIS (native c++),rasterlayerzonalstats,Raster layer zonal statistics
+QGIS (native c++),rasterlogicalor,Raster boolean OR
+QGIS (native c++),rastersampling,Sample raster values
+QGIS (native c++),rastersurfacevolume,Raster surface volume
+QGIS (native c++),reclassifybylayer,Reclassify by layer
+QGIS (native c++),reclassifybytable,Reclassify by table
+QGIS (native c++),rectanglesovalsdiamonds,"Rectangles, ovals, diamonds"
+QGIS (native c++),refactorfields,Refactor fields
+QGIS (native c++),removeduplicatesbyattribute,Delete duplicates by attribute
+QGIS (native c++),removeduplicatevertices,Remove duplicate vertices
+QGIS (native c++),removenullgeometries,Remove null geometries
+QGIS (native c++),renamelayer,Rename layer
+QGIS (native c++),renametablefield,Rename field
+QGIS (native c++),repairshapefile,Repair Shapefile
+QGIS (native c++),reprojectlayer,Reproject layer
+QGIS (native c++),rescaleraster,Rescale raster
+QGIS (native c++),retainfields,Retain fields
+QGIS (native c++),reverselinedirection,Reverse line direction
+QGIS (native c++),rotatefeatures,Rotate
+QGIS (native c++),roundness,Roundness
+QGIS (native c++),roundrastervalues,Round raster
+QGIS (native c++),ruggednessindex,Ruggedness index
+QGIS (native c++),savefeatures,Save vector features to file
+QGIS (native c++),savelog,Save log to file
+QGIS (native c++),saveselectedfeatures,Extract selected features
+QGIS (native c++),segmentizebymaxangle,Segmentize by maximum angle
+QGIS (native c++),segmentizebymaxdistance,Segmentize by maximum distance
+QGIS (native c++),selectbylocation,Select by location
+QGIS (native c++),selectwithindistance,Select within distance
+QGIS (native c++),serviceareafromlayer,Service area (from layer)
+QGIS (native c++),serviceareafrompoint,Service area (from point)
+QGIS (native c++),setlayerencoding,Set layer encoding
+QGIS (native c++),setlayerstyle,Set layer style
+QGIS (native c++),setmfromraster,Set M value from raster
+QGIS (native c++),setmvalue,Set M value
+QGIS (native c++),setprojectvariable,Set project variable
+QGIS (native c++),setzfromraster,Drape (set Z value from raster)
+QGIS (native c++),setzvalue,Set Z value
+QGIS (native c++),shortestline,Shortest line between features
+QGIS (native c++),shortestpathlayertopoint,Shortest path (layer to point)
+QGIS (native c++),shortestpathpointtolayer,Shortest path (point to layer)
+QGIS (native c++),shortestpathpointtopoint,Shortest path (point to point)
+QGIS (native c++),shpencodinginfo,Extract Shapefile encoding
+QGIS (native c++),simplifygeometries,Simplify
+QGIS (native c++),singlesidedbuffer,Single sided buffer
+QGIS (native c++),slope,Slope
+QGIS (native c++),smoothgeometry,Smooth
+QGIS (native c++),snapgeometries,Snap geometries to layer
+QGIS (native c++),snappointstogrid,Snap points to grid
+QGIS (native c++),spatialiteexecutesql,SpatiaLite execute SQL
+QGIS (native c++),spatialiteexecutesqlregistered,SpatiaLite execute SQL (registered DB)
+QGIS (native c++),splitfeaturesbycharacter,Split features by character
+QGIS (native c++),splitlinesbylength,Split lines by maximum length
+QGIS (native c++),splitvectorlayer,Split vector layer
+QGIS (native c++),splitwithlines,Split with lines
+QGIS (native c++),stdbscanclustering,ST-DBSCAN clustering
+QGIS (native c++),stringconcatenation,String concatenation
+QGIS (native c++),stylefromproject,Create style database from project
+QGIS (native c++),subdivide,Subdivide
+QGIS (native c++),sumlinelengths,Sum line lengths
+QGIS (native c++),swapxy,Swap X and Y coordinates
+QGIS (native c++),symmetricaldifference,Symmetrical difference
+QGIS (native c++),taperedbuffer,Tapered buffers
+QGIS (native c++),tilesxyzdirectory,Generate XYZ tiles (Directory)
+QGIS (native c++),tilesxyzmbtiles,Generate XYZ tiles (MBTiles)
+QGIS (native c++),tinmeshcreation,TIN Mesh Creation
+QGIS (native c++),transect,Transect
+QGIS (native c++),transferannotationsfrommain,Transfer annotations from main layer
+QGIS (native c++),translategeometry,Translate
+QGIS (native c++),truncatetable,Truncate table
+QGIS (native c++),union,Union
+QGIS (native c++),uploadgpsdata,Upload GPS data to device
+QGIS (native c++),virtualrastercalc,Raster calculator (virtual)
+QGIS (native c++),voronoipolygons,Voronoi polygons
+QGIS (native c++),wedgebuffers,Create wedge buffers
+QGIS (native c++),writevectortiles_mbtiles,Write Vector Tiles (MBTiles)
+QGIS (native c++),writevectortiles_xyz,Write Vector Tiles (XYZ)
+QGIS (native c++),zonalhistogram,Zonal histogram
+QGIS (native c++),zonalstatistics,Zonal statistics (in place)
+QGIS (native c++),zonalstatisticsfb,Zonal statistics
+QGIS,advancedpythonfieldcalculator,Advanced Python field calculator
+QGIS,barplot,Bar plot
+QGIS,basicstatisticsforfields,Basic statistics for fields
+QGIS,boxplot,Box plot
+QGIS,checkvalidity,Check validity
+QGIS,climbalongline,Climb along line
+QGIS,convertgeometrytype,Convert geometry type
+QGIS,definecurrentprojection,Define Shapefile projection
+QGIS,distancematrix,Distance matrix
+QGIS,distancetonearesthublinetohub,Distance to nearest hub (line to hub)
+QGIS,distancetonearesthubpoints,Distance to nearest hub (points)
+QGIS,eliminateselectedpolygons,Eliminate selected polygons
+QGIS,executesql,Execute SQL
+QGIS,exportaddgeometrycolumns,Add geometry attributes
+QGIS,findprojection,Find projection
+QGIS,generatepointspixelcentroidsalongline,Generate points (pixel centroids) along line
+QGIS,heatmapkerneldensityestimation,Heatmap (Kernel Density Estimation)
+QGIS,hypsometriccurves,Hypsometric curves
+QGIS,idwinterpolation,IDW interpolation
+QGIS,importintospatialite,Export to SpatiaLite
+QGIS,knearestconcavehull,Concave hull (k-nearest neighbor)
+QGIS,linestopolygons,Lines to polygons
+QGIS,listuniquevalues,List unique values
+QGIS,meanandstandarddeviationplot,Mean and standard deviation plot
+QGIS,minimumboundinggeometry,Minimum bounding geometry
+QGIS,pointsdisplacement,Points displacement
+QGIS,polarplot,Polar plot
+QGIS,postgisexecuteandloadsql,PostgreSQL execute and load SQL
+QGIS,randomextractwithinsubsets,Random extract within subsets
+QGIS,randompointsalongline,Random points along line
+QGIS,randompointsinlayerbounds,Random points in layer bounds
+QGIS,randompointsinsidepolygons,Random points inside polygons
+QGIS,randomselection,Random selection
+QGIS,randomselectionwithinsubsets,Random selection within subsets
+QGIS,rastercalculator,Raster calculator
+QGIS,rasterlayerhistogram,Raster layer histogram
+QGIS,rectanglesovalsdiamondsvariable,"Rectangles, ovals, diamonds (variable)"
+QGIS,regularpoints,Regular points
+QGIS,relief,Relief
+QGIS,scatter3dplot,Vector layer scatterplot 3D
+QGIS,selectbyattribute,Select by attribute
+QGIS,selectbyexpression,Select by expression
+QGIS,setstyleforrasterlayer,Set style for raster layer
+QGIS,setstyleforvectorlayer,Set style for vector layer
+QGIS,statisticsbycategories,Statistics by categories
+QGIS,texttofloat,Text to float
+QGIS,tininterpolation,TIN interpolation
+QGIS,topologicalcoloring,Topological coloring
+QGIS,variabledistancebuffer,Variable distance buffer
+QGIS,vectorlayerhistogram,Vector layer histogram
+QGIS,vectorlayerscatterplot,Vector layer scatterplot
+Scripts,sentinelmaster,Sentinel Download noDB
+Scripts,sentinelnodb,Sentinel Download Master
